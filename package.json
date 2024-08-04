@@ -1,0 +1,38 @@
+{
+  "name": "@avocajs/mq",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "source": "dist/index.js",
+  "scripts": {
+    "test": "npx jest --coverage",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "memory queue",
+    "typescript",
+    "avocajs"
+  ],
+  "author": "Essefri Mohamed",
+  "license": "ISC",
+  "description": "A memory queue package for AvocaJS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avocajs/mq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avocajs/mq/issues"
+  },
+  "homepage": "https://github.com/avocajs/mq#readme",
+  "dependencies": {
+    "@avocajs/check": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.1.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4",
+    "typescript": "^5.5.4"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules
+coverage
+src
+test
+tsconfig
+jest.config.js
+.gitignore
